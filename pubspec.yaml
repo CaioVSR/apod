@@ -30,16 +30,16 @@ flutter:
   fonts:
     - family: Nasalization
       fonts:
-        - asset: fonts/nasa/nasalization-rg.otf
+        - asset: assets/fonts/nasa/nasalization-rg.otf
 
     - family: Poppins
       fonts:
-        - asset: fonts/poppins/Poppins-Black.ttf
-        - asset: fonts/poppins/Poppins-Bold.ttf
-        - asset: fonts/poppins/Poppins-ExtraBold.ttf
-        - asset: fonts/poppins/Poppins-ExtraLight.ttf
-        - asset: fonts/poppins/Poppins-Light.ttf
-        - asset: fonts/poppins/Poppins-Medium.ttf
-        - asset: fonts/poppins/Poppins-Regular.ttf
-        - asset: fonts/poppins/Poppins-SemiBold.ttf
-        - asset: fonts/poppins/Poppins-Thin.ttf
+        - asset: assets/fonts/poppins/Poppins-Black.ttf
+        - asset: assets/fonts/poppins/Poppins-Bold.ttf
+        - asset: assets/fonts/poppins/Poppins-ExtraBold.ttf
+        - asset: assets/fonts/poppins/Poppins-ExtraLight.ttf
+        - asset: assets/fonts/poppins/Poppins-Light.ttf
+        - asset: assets/fonts/poppins/Poppins-Medium.ttf
+        - asset: assets/fonts/poppins/Poppins-Regular.ttf
+        - asset: assets/fonts/poppins/Poppins-SemiBold.ttf
+        - asset: assets/fonts/poppins/Poppins-Thin.ttf
