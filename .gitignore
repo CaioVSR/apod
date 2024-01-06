@@ -32,7 +32,7 @@ migrate_working_dir/
 /build/
 *.lock
 *.g.dart
-*.launch.json
+launch.json
 
 # Symbolication related
 app.*.symbols
