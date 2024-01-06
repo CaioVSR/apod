@@ -1,0 +1,21 @@
+{
+  // Use IntelliSense to learn about possible attributes.
+  // Hover to view descriptions of existing attributes.
+  // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "name": "apod",
+      "request": "launch",
+      "type": "dart",
+      "toolArgs": [
+        "--dart-define",
+        "BASE_LAUNCH_URL=https://fdo.rocketlaunch.live/json/launches",
+        "--dart-define",
+        "NASA_API_KEY=your_api_key_goes_here",
+        "--dart-define",
+        "NASA_APOD_BASE_URL=https://api.nasa.gov/planetary/apod" 
+      ]
+    },
+  ]
+}
