@@ -18,6 +18,10 @@ dependencies:
   dio: ^5.4.0
   shared_preferences: ^2.2.2
   dartz: ^0.10.1
+  internet_connection_checker_plus: ^2.1.0
+  youtube_player_flutter: ^8.1.2
+  cached_network_image: ^3.3.1
+  carousel_slider: ^4.2.1
 
 dev_dependencies:
   flutter_test:
