@@ -15,6 +15,9 @@ dependencies:
   flutter_mobx: ^2.2.0+1
   intl: ^0.19.0
   shimmer: ^3.0.0
+  dio: ^5.4.0
+  shared_preferences: ^2.2.2
+  dartz: ^0.10.1
 
 dev_dependencies:
   flutter_test:
@@ -22,6 +25,7 @@ dev_dependencies:
   flutter_lints: ^3.0.1
   build_runner: ^2.4.7
   mobx_codegen: ^2.0.1
+  mocktail: ^1.0.2
 
 flutter:
   uses-material-design: true
