@@ -1,15 +1,17 @@
+import 'package:apod/core/bindings/core_bindings.dart';
+import 'package:apod/features/splash/splash_module.dart';
 import 'package:flutter_modular/flutter_modular.dart';
 
 class AppModule extends Module {
-  @override
-  List<Module> get imports => const [];
+  final _transition = TransitionType.rightToLeftWithFade;
 
   @override
-  void binds(Injector i) {}
+  void binds(Injector i) {
+    CoreBindings();
+  }
 
   @override
-  void exportedBinds(Injector i) {}
-
-  @override
-  void routes(RouteManager r) {}
+  void routes(RouteManager r) {
+    r.module('/', module: SplashModule(), transition: _transition);
+  }
 }
